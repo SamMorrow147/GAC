@@ -7,10 +7,10 @@ const CompanyArea = () => {
     rootMargin: 0,
   });
 
-  // Define button style with new color (using GAC brand colors)
+  // Define button style with new color (using GAC's teal blue brand color)
   const buttonStyle = {
-    backgroundColor: "#2E3386", // Primary GAC brand color
-    borderColor: "#2E3386"
+    backgroundColor: "#327D8E", // Changed from #2E3386 to #327D8E (teal blue)
+    borderColor: "#327D8E"
   };
 
   return (
