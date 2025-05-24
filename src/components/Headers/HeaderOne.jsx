@@ -139,28 +139,23 @@ const HeaderOne = () => {
                     <div className="social-links">
                       <ul className="clearfix list-wrap">
                         <li>
-                          <a href="#">
+                          <a href="https://www.facebook.com/grace.anthony.consulting" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-facebook-f"></i>
                           </a>
                         </li>
-                        <li>
-                          <a href="#">
+                        <li className="active">
+                          <a href="https://twitter.com/GraceAntho41519" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-twitter"></i>
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="https://www.instagram.com/graceanthonyconsulting/" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-instagram"></i>
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="https://www.linkedin.com/company/grace-anthony-consulting" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-linkedin-in"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-youtube"></i>
                           </a>
                         </li>
                       </ul>
