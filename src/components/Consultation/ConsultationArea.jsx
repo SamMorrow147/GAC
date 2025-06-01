@@ -1,13 +1,12 @@
 import React from "react";
-import ConsultationAreaForm from "./ConsultationAreaForm";
 
 const ConsultationArea = () => {
   return (
     <section id="contact" className="consultation-area pt-120 pb-120">
       <div className="container">
-        <div className="row align-items-center">
-          <div className="col-lg-7">
-            <div className="consultation-content">
+        <div className="row justify-content-center">
+          <div className="col-lg-8">
+            <div className="consultation-content text-center">
               <div className="section-title mb-25">
                 <img src="/img/icon/consultation_icon01.png" alt="" />
                 <span className="sub-title">Get In Touch</span>
@@ -19,7 +18,7 @@ const ConsultationArea = () => {
                 Let's elevate your brand. We'll create tailored marketing strategies that deliver real results and lasting impact.
               </p>
               <div className="consultation-list">
-                <ul className="list-wrap">
+                <ul className="list-wrap justify-content-center">
                   <li>
                     <div className="icon">
                       <img src="/img/icon/consultation_icon02.png" alt="" />
@@ -41,10 +40,6 @@ const ConsultationArea = () => {
                 </ul>
               </div>
             </div>
-          </div>
-
-          <div className="col-lg-5">
-            <ConsultationAreaForm />
           </div>
         </div>
       </div>

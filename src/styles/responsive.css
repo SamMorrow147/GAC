@@ -1591,9 +1591,10 @@ html, body {
   .footer-bottom p {
     text-align: center;
   }
-  /* .scroll-top {
-    right: 10px;
-  } */
+  /* Enable the scroll-top CSS but keep it from affecting layout by setting display: none on mobile */
+  .scroll-top {
+    display: none;
+  }
   .newsletter-form input {
     width: 100%;
   }

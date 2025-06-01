@@ -5,7 +5,6 @@ import BrandArea from "../../components/Brand/BrandArea";
 import CompanyArea from "../../components/Company/CompanyArea";
 import ConsultationArea from "../../components/Consultation/ConsultationArea";
 import InnerServicesArea from "../../components/Services/InnerServicesArea";
-import NewsLetterArea from "../../components/NewsLetter/NewsLetterArea";
 import TestimonialArea from "../../components/Testimonial/TestimonialArea";
 import Layout from "../../layouts/Layout";
 
@@ -19,7 +18,6 @@ const CreativeAgency = () => {
       <CompanyArea />
       <TestimonialArea />
       <ConsultationArea />
-      <NewsLetterArea />
     </Layout>
   );
 };

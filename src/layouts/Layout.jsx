@@ -5,7 +5,6 @@ import FooterTwo from "../components/Footers/FooterTwo";
 import HeaderOne from "../components/Headers/HeaderOne";
 import HeaderTwo from "../components/Headers/HeaderTwo";
 import Preloader from "../components/Preloader/Preloader";
-import ScrollTop from "../components/ScrollTop/ScrollTop";
 import { initSmoothScrolling } from "../lib/helpers";
 
 const Layout = ({ children, header = 1, footer, className, mainClassName }) => {
@@ -17,7 +16,6 @@ const Layout = ({ children, header = 1, footer, className, mainClassName }) => {
   return (
     <>
       <Preloader />
-      <ScrollTop />
 
       <div className={className}>
         {header === 1 && <HeaderOne />}
