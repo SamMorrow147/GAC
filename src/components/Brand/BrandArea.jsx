@@ -1,14 +1,32 @@
 import React from "react";
 
 const BrandArea = () => {
-  // Primary logos from the project
+  // Primary logos from the project with their respective URLs
   const brandLogos = [
-    "/img/brand/h3_brand_img01.png",
-    "/img/brand/h3_brand_img02.png",
-    "/img/brand/h3_brand_img03.png",
-    "/img/brand/h3_brand_img04.png",
-    "/img/brand/h3_brand_img05.png",
-    "/img/brand/h3_brand_img06.png",
+    {
+      image: "/img/brand/h3_brand_img01.png",
+      url: "https://clubhausagency.com/"
+    },
+    {
+      image: "/img/brand/h3_brand_img05.png",
+      url: "https://bayerkohlercpa.com"
+    },
+    {
+      image: "/img/brand/h3_brand_img02.png",
+      url: "https://operatorcoffee.com/"
+    },
+    {
+      image: "/img/brand/h3_brand_img06.png",
+      url: "https://henryesp.com"
+    },
+    {
+      image: "/img/brand/h3_brand_img03.png",
+      url: "https://msmasoftball.com"
+    },
+    {
+      image: "/img/brand/h3_brand_img04.png",
+      url: "https://www.genxdirect.com"
+    }
   ];
   
   // Fallback logos - placeholder company logos in case the primary ones don't load
@@ -35,17 +53,19 @@ const BrandArea = () => {
         
         {/* Static grid of partner logos */}
         <div className="row justify-content-center">
-          {brandLogos.map((logo, index) => (
+          {brandLogos.map((brand, index) => (
             <div className="col-lg-2 col-md-3 col-sm-4 col-6 mb-4" key={index}>
               <div className="brand-item-two">
-                <img 
-                  src={logo} 
-                  alt={`Partner Logo ${index + 1}`}
-                  onError={(e) => {
-                    e.target.onerror = null;
-                    e.target.src = fallbackLogos[index];
-                  }}
-                />
+                <a href={brand.url} target="_blank" rel="noopener noreferrer">
+                  <img 
+                    src={brand.image} 
+                    alt={`Partner Logo ${index + 1}`}
+                    onError={(e) => {
+                      e.target.onerror = null;
+                      e.target.src = fallbackLogos[index];
+                    }}
+                  />
+                </a>
               </div>
             </div>
           ))}
