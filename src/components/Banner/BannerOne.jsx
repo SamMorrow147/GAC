@@ -18,13 +18,7 @@ const BannerOne = () => {
               <h2 className="title wow fadeInUp" data-wow-delay=".4s">
                 Full-Service Marketing Agency Based in Elk River, MN
               </h2>
-              <a
-                href="#contact"
-                className="btn wow fadeInUp"
-                data-wow-delay=".6s"
-              >
-                Contact Us <span></span>
-              </a>
+
             </div>
           </div>
         </div>

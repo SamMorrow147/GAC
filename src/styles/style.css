@@ -6363,3 +6363,9 @@ section {
   margin-bottom: 15px;
   display: block;
 }
+
+/* Fix for banner section independent scrolling issue */
+.banner-area {
+  overflow: visible;
+  position: static;
+}

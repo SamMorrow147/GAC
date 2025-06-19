@@ -110,7 +110,7 @@ const HeaderOne = () => {
                     <div className="header-action">
                       <ul className="list-wrap">
                         <li className="header-btn">
-                          <a href="#contact" className="btn">
+                          <a href="javascript:void(0)" className="btn">
                             Contact <span></span>
                           </a>
                         </li>
@@ -237,26 +237,10 @@ const HeaderOne = () => {
                               </div>
                             </li>
                           </ul>
-                          <div className="lats-chat">
-                            <a href="#contact">Let's Chat</a>
-                          </div>
+
                         </div>
                       </div>
-                      <div className="col-xl-8 col-lg-7 col-md-6">
-                        <div className="our-best-project">
-                          <div className="content">
-                            <h4 className="title">
-                              One of Our <span>Best Ongoing</span> Projects
-                            </h4>
-                            <a href="#projects" className="btn">
-                              Details <span></span>
-                            </a>
-                          </div>
-                          <div className="thumb">
-                            <img src="/img/images/our_project_img.png" alt="" />
-                          </div>
-                        </div>
-                      </div>
+
                     </div>
                   </div>
                 </div>
@@ -271,12 +255,11 @@ const HeaderOne = () => {
                       <p>
                         We offer comprehensive marketing solutions for businesses of all sizes. 
                         Contact our team to discuss your specific needs and how we can help you 
-                        grow your business. <a href="#contact">Get in touch</a>
+                        grow your business.
                       </p>
                     </div>
                     <div className="content-bottom">
                       <a href="#services">Our Services</a>
-                      <a href="#projects">Our Projects</a>
                     </div>
                   </div>
                 </div>

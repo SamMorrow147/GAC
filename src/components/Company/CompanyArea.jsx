@@ -65,9 +65,7 @@ const CompanyArea = () => {
                   </li>
                 </ul>
               </div>
-              <a href="#contact" className="btn wow fadeInUp" data-wow-delay=".6s" style={buttonStyle}>
-                Contact Us <span></span>
-              </a>
+
             </div>
           </div>
         </div>
