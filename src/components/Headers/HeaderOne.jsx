@@ -104,9 +104,6 @@ const HeaderOne = () => {
                         <li>
                           <a href="#testimonial">Testimonials</a>
                         </li>
-                        <li>
-                          <a href="#contact">Contact</a>
-                        </li>
                       </ul>
                     </div>
 
